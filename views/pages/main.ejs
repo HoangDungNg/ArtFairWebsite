@@ -1,0 +1,87 @@
+<!-- Marketing messaging and featurettes
+  ================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+<main class="py-5">
+  <div class="container marketing">
+    <!-- Three columns of text below the carousel -->
+    <%-include ('./partials/topSpeakers') %>
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider" />
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">
+          First beautiful painting. <span class="text-muted">From <%=artists[0].name%>.</span>
+        </h2>
+        <p class="lead">
+          This is one of the most proudest product of <%=artists[0].name%>. The painting expresses
+          the brilliance of flowers. Looking at flowers can make you feel relaxed and happier.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img
+          src="/images/products/<%=topProducts[0]%>"
+          class="img-thumbnail rounded custom-img2 img-fluid"
+        />
+      </div>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">
+          Continue to a painting of nature.
+          <span class="text-muted">From <%=artists[1].name%>.</span>
+        </h2>
+        <p class="lead">
+          Any viewer who is in love with nature especially rivers and ocean may come to this Art
+          Fair to enjoy all the products of <%=artists[1].name%>. This is one of her famous
+          paintings.
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img
+          src="/images/products/<%=topProducts[1]%>"
+          class="img-thumbnail rounded custom-img2 img-fluid"
+        />
+      </div>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">
+          And lastly, this one. <span class="text-muted">From <%=artists[2].name%></span>
+        </h2>
+        <p class="lead">
+          And yes, this is the last featured product from <%=artists[2].name%> - The leader of The
+          Art Club. Any viewer who loves to digest the deepest meaning of artwork may come to this
+          Art Fair to observe mysterious paintings.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img
+          src="/images/products/<%=topProducts[2]%>"
+          class="img-thumbnail rounded custom-img2 img-fluid"
+        />
+      </div>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <!-- /END THE FEATURETTES -->
+  </div>
+  <!-- /.container -->
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>
+      &copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+    </p>
+  </footer>
+</main>

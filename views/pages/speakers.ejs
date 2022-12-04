@@ -1,0 +1,31 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-sm-8">
+      <article class="speakerslist maincontent">
+        <% artists.forEach(function (artist){%>
+        <div class="mb-4">
+          <h4 class="speakerslist-title"></h4>
+          <div class="speakerslist-name">
+            with
+            <a href="/artists/<%=artist.shortname%>"><%=artist.name%></a>
+          </div>
+          <div class="row speakerslist-info mt-2">
+            <div class="col-sm-5">
+              <a href="/artists/<%=artist.shortname%>">
+                <img
+                  class="speakerslist-img img-fluid custom-img rounded"
+                  src="./images/speakers/<%=artist.shortname%>.jpg"
+                  alt="Photo of <%=artist.name%>"
+                />
+              </a>
+            </div>
+            <div class="col-sm-7"><%=artist.summary%></div>
+          </div>
+        </div>
+        <%})%>
+      </article>
+    </div>
+
+    <aside class="col-sm-4"><%- include ('./partials/product') %></aside>
+  </div>
+</div>

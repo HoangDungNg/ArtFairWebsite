@@ -1,0 +1,20 @@
+<div class="row py-3">
+  <% artists.forEach(function(artist){%>
+  <div class="col-lg-4">
+    <img
+      src="/images/speakers/<%=artist.shortname%>.jpg"
+      class="img-thumbnail rounded custom-img img-fluid"
+      alt="image of <%=artist.shortname%> "
+    />
+    <title></title>
+    <div class="details py-4">
+      <h2><%=artist.name%></h2>
+      <p><%=artist.summary%></p>
+
+      <p>
+        <a class="btn btn-secondary" href="/artists/<%=artist.shortname%>">View details &raquo;</a>
+      </p>
+    </div>
+  </div>
+  <%})%>
+</div>

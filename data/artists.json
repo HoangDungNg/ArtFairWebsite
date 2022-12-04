@@ -1,0 +1,46 @@
+{
+  "artists": [
+    {
+      "title": "Beautiful Bloom",
+      "name": "Mason Olson",
+      "shortname": "Mason_Olson",
+      "summary": "Although Mason Olson is a first-year art student with low experience, his distinctive and ground-breaking method of painting on canvas brings a refreshing breeze of change. Anyone who attends this Art Fair will definitely enjoy his products.",
+      "description": "<p>Mason was born in India, but his family decides to go to America because of his passion for painting. He produced his first painting in America, where it was greatly acclaimed in his secondary school. Mason then developed an addiction to making art from many discarded materials. He developed his own unique technique for painting on canvas during his sophomore year of art school in America, and he will display it on the date of the Art Fair in his session on Beautiful Bloom.</p><p>Mason enjoys drawing animals and the natural world. His works are both vivid and moving. Mason, who is currently in his final year of college, has been making mixed-media totem poles out of recycled materials like old telephone poles, and he is already working on his next innovation, which will probably increase his reputation in the future.</p>",
+      "artwork": [
+        "Mason_Olson_01_tn.jpg",
+        "Mason_Olson_02_tn.jpg",
+        "Mason_Olson_03_tn.jpg",
+        "Mason_Olson_04_tn.jpg",
+        "Mason_Olson_05_tn.jpg"
+      ]
+    },
+    {
+      "title": "The Beauty of Ocean",
+      "name": "Rosemary Riley",
+      "shortname": "Rosemary_Riley",
+      "summary": "Rosemary is a National Art University sophomore studying sculpting who has earned important international awards for American painters. She was given numerous scholarships by the National Art University thanks to these awards. Rosemary uses her paintings to share her love of rivers and the ocean.",
+      "description": "<p>Rosemary is a National Art University sophomore studying sculpting who has earned important international awards for American painters. She was given numerous scholarships by the National Art University thanks to these awards. Rosemary uses her paintings to share her love of rivers and the ocean.</p><p> Since she enjoys participating in water sports, Rosemary found many wonderful aspects of water. She wanted to show people the beauty of the deep ocean in many aspects through the Art Fair.  Along with the exhibit, Rosemary runs a class every Saturday called The Beauty of Ocean, which is for engaging people who are also in love with the ocean to study the ways to express the beauty and for sharing experiences as well as personal stories about the ocean.</p>",
+      "artwork": [
+        "Rosemary_Riley_01_tn.jpg",
+        "Rosemary_Riley_02_tn.jpg",
+        "Rosemary_Riley_03_tn.jpg",
+        "Rosemary_Riley_04_tn.jpg",
+        "Rosemary_Riley_05_tn.jpg"
+      ]
+    },
+    {
+      "title": "The Mystery of Art",
+      "name": "Taylor Martin",
+      "shortname": "Taylor_Martin",
+      "summary": "Taylor is the leader of the art club at National Art University. Taylor has produced some of the most distinctive and profoundly moving abstract artworks of his time by fusing modern art and traditional art and combine with his feelings for any related video or music.",
+      "description": "<p> Beginning as a street performer, Taylor now combines traditional art (painting, photography) with modern art (music, video, etc) to create his own Mystery of Art. Taylor has inspired a lot of young artists in to follow his path and his achievement is seeing those young artists succeed. Taylor used to be concerned about those young artists would be more unique than him and take away his position as a leader. However, Taylor finally found the meaning he so desperately seeks in art when he sees the students he has guided enrolled in reputable art colleges.</p><p>Similar to other young talents, Taylor is only a first-year student but he found a way to refresh the art industry with his unique idea of using modern art. Taylor's wonderful products have many meaningful messages based on the person's perspective. In other words, his art does not contain a specific meaning. Instead, the viewers need to feel the product based on their imagination.  On Saturday, Taylor will give a speech about The Mystery of Art.</p>",
+      "artwork": [
+        "Taylor_Martin_01_tn.jpg",
+        "Taylor_Martin_02_tn.jpg",
+        "Taylor_Martin_03_tn.jpg",
+        "Taylor_Martin_04_tn.jpg",
+        "Taylor_Martin_05_tn.jpg"
+      ]
+    }
+  ]
+}
